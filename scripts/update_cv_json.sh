@@ -12,11 +12,11 @@ CV_JSON="$BASE_DIR/_data/cv.json"
 CONFIG_FILE="$BASE_DIR/_config.yml"
 
 # Check if the Python script exists
-PYTHON_SCRIPT="$BASE_DIR/scripts/cv_markdown_to_json.py"
-if [ ! -f "$PYTHON_SCRIPT" ]; then
-  echo "Error: Python script not found at $PYTHON_SCRIPT"
-  exit 1
-fi
+# PYTHON_SCRIPT="$BASE_DIR/scripts/cv_markdown_to_json.py"
+# if [ ! -f "$PYTHON_SCRIPT" ]; then
+#   echo "Error: Python script not found at $PYTHON_SCRIPT"
+#   exit 1
+# fi
 
 # Check if the markdown CV exists
 if [ ! -f "$CV_MARKDOWN" ]; then
